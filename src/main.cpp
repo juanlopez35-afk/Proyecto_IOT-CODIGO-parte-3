@@ -17,12 +17,12 @@
 const String CODIGO_PROYECTO = "IOT-C05F59AF8A";
 const String TARJETA_AUTORIZADA = "75 F2 DD 13";
 
-const unsigned long TIEMPO_BLOQUEO_MS       = 17000;  // 17 s de bloqueo
-const unsigned long INTERVALO_MUESTREO_MS   = 2600;   // lectura del sensor
-const unsigned long PERIODO_PUBLICACION_MS  = 21000;  // telemetria MQTT
-const unsigned long INTERVALO_RECONEXION_MS = 4000;   // reintento wifi / mqtt
-const int MAX_INTENTOS_FALLIDOS   = 3; // rechazos consecutivos para bloquear
-const int CONFIRMACIONES_ALARMA   = 4; // lecturas consecutivas para confirmar alarma
+const unsigned long TIEMPO_BLOQUEO_MS       = 17000;  
+const unsigned long INTERVALO_MUESTREO_MS   = 2600;   
+const unsigned long PERIODO_PUBLICACION_MS  = 21000;  
+const unsigned long INTERVALO_RECONEXION_MS = 4000;   
+const int MAX_INTENTOS_FALLIDOS   = 3; 
+const int CONFIRMACIONES_ALARMA   = 4; 
 const unsigned long MARGEN_HISTERESIS_MS = 1000;
 
 const char* TOPIC_TELEMETRY = "iot/c05f59af8a/telemetry";
