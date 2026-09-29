@@ -22,8 +22,6 @@ scripts `interfaz/subscriber.py` y `interfaz/publisher.py`.
 
 ## Publicación MQTT recibida
 
-*(Pegar aquí una captura de la consola de `interfaz/subscriber.py` mostrando
-al menos un mensaje recibido en `iot/c05f59af8a/telemetry`.)*
 Tarjeta detectada (UID): 11 22 33 44
 -> ACCESO DENEGADO (Intento 1/3)
 Tarjeta detectada (UID): 11 22 33 44
